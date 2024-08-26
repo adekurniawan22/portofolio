@@ -168,7 +168,7 @@ h6 {
 }
 
 .header .logo img {
-    max-height: 32px;
+    max-height: 60px;
     margin-right: 8px;
 }
 
@@ -1030,6 +1030,7 @@ section,
     color: color-mix(in srgb, var(--default-color), transparent 30%);
     font-size: 14px;
     margin-bottom: 0;
+    margin-right: 18px;
     padding-right: 50px;
 }
 
@@ -1637,13 +1638,13 @@ section,
 .social-media a {
     display: inline-block;
     margin: 0 10px;
-    color: black;
+    color: white;
     font-size: 1.8rem;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-media a:hover {
-    color: white;
+    color: black;
     transform: scale(1.2);
 }
 
